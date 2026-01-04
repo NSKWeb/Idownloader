@@ -25,7 +25,7 @@ const BlogPage = () => {
   return (
     <div className="prose dark:prose-invert mx-auto">
       <h1>Blog</h1>
-      <p>Welcome to our blog! Here you'll find the latest news, updates, and guides related to our service and online video downloading.</p>
+      <p>Welcome to our blog! Here you&apos;ll find the latest news, updates, and guides related to our service and online video downloading.</p>
 
       <div className="not-prose mt-8 space-y-8">
         {posts.map((post) => (

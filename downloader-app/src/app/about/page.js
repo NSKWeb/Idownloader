@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div className="prose dark:prose-invert mx-auto">
       <h1>About Us</h1>
       <p>
-        Welcome to Multi-Platform Downloader, your number one source for downloading videos from all your favorite social media platforms. We're dedicated to giving you the very best tool, with a focus on reliability, ease of use, and speed.
+        Welcome to Multi-Platform Downloader, your number one source for downloading videos from all your favorite social media platforms. We&apos;re dedicated to giving you the very best tool, with a focus on reliability, ease of use, and speed.
       </p>
       <p>
         Founded in 2024, Multi-Platform Downloader has come a long way from its beginnings. When we first started out, our passion for providing a free, accessible tool for everyone drove us to create this service. We believe that everyone should be able to save and enjoy content from the web without limitations or hidden costs.
@@ -26,7 +26,7 @@ const AboutPage = () => {
         <li><strong>Easy to Use:</strong> A clean and simple interface that gets the job done quickly.</li>
       </ul>
       <p>
-        We hope you enjoy our service as much as we enjoy offering it to you. If you have any questions or comments, please don't hesitate to contact us.
+        We hope you enjoy our service as much as we enjoy offering it to you. If you have any questions or comments, please don&apos;t hesitate to contact us.
       </p>
     </div>
   );
