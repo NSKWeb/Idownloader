@@ -32,7 +32,7 @@ const TermsOfServicePage = () => {
 
       <h2>4. Disclaimer</h2>
       <p>
-        The Service is provided on an "AS IS" and "AS AVAILABLE" basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.
+        The Service is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.
       </p>
 
       <h2>5. Limitation of Liability</h2>
