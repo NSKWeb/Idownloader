@@ -4,7 +4,7 @@ A self-hosted, full-stack Next.js application that allows you to download videos
 
 ## Features
 
-- **21+ Platforms Supported:** Download from YouTube, Instagram, Facebook, TikTok, Twitter, and many more.
+- **20+ Platforms Supported:** Download from YouTube, Instagram, Facebook, TikTok, Twitter, and many more.
 - **No API Keys Needed:** Works out-of-the-box using the powerful `yt-dlp` library.
 - **Free and Unlimited:** No watermarks, no time limits, no hidden costs.
 - **Self-Hosted:** You have full control over the application and your data.
@@ -81,13 +81,13 @@ The application is configured to handle Vercel's serverless environment, includi
 
 ## API Endpoints
 
-The application exposes 21 separate API endpoints, one for each platform. They all follow the same structure:
+The application exposes 20+ separate API endpoints, one for each platform. They all follow the same structure:
 
 -   **URL:** `/api/{platform_name}`
 -   **Method:** `POST`
 -   **Body:** `{ "url": "https://example.com/video" }`
 -   **Success Response:** `{ "success": true, "downloadUrl": "..." }`
--   **Error Response:** `{ "success": false, "error": "Error message" }`
+-   **Error Response:** `{ "success": false, "code": "ERROR_CODE", "error": "Error message" }`
 
 ## Technologies Used
 
