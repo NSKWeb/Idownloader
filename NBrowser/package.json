@@ -1,0 +1,20 @@
+{
+  "name": "nbrowser",
+  "private": true,
+  "workspaces": [
+    "desktop",
+    "web",
+    "backend",
+    "prisma"
+  ],
+  "scripts": {
+    "dev": "npm run -w backend dev & npm run -w web dev",
+    "dev:web": "npm run -w web dev",
+    "dev:backend": "npm run -w backend dev",
+    "dev:desktop": "npm run -w desktop dev",
+    "db:generate": "npm run -w prisma generate",
+    "db:migrate": "npm run -w prisma migrate",
+    "lint": "npm run -w web lint && npm run -w backend lint",
+    "test": "npm run -w backend test"
+  }
+}
