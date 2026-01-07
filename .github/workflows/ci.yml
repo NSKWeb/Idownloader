@@ -1,0 +1,12 @@
+name: CI (placeholder)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CI placeholder
+        run: echo "CI placeholder — configure per-team standards"
